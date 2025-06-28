@@ -1,0 +1,12 @@
+pandas 
+numpy
+scikit-learn
+setuptools
+flask
+joblib
+matplotlib
+seaborn
+mlflow
+kfp # kubeflow pipelines
+tensorflow
+keras

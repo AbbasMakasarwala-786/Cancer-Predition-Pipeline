@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/91835/OneDrive/Desktop/mlops-5/mlruns/0/9ea3b6fef38d405089a1924af0cf56d0/artifacts
+end_time: 1751118322482
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9ea3b6fef38d405089a1924af0cf56d0
+run_name: sassy-hound-287
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751118320397
+status: 3
+tags: []
+user_id: '91835'

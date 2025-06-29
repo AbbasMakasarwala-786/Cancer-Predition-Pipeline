@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medical Input Form</title>
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+  <div class="form-container">
+    <form class="form-card" id="medicalForm",method="post",action='/predict'>
+      <h2>Medical Data Entry</h2>
+
+      <input type="number" step="0.01" name="Healthcare_Costs" placeholder="Healthcare Costs (decimal)" required />
+      <input type="number" step="0.01" name="Tumor_Size_mm" placeholder="Tumor Size (mm) (decimal)" required />
+      <input type="number" step="0.01" name="Mortality_Rate_per_100K" placeholder="Mortality Rate per 100K (decimal)" required />
+      <input type="number" step="1" name="treatment_type" placeholder="Treatment Type (integer)" required />
+      <input type="number" step="1" name="Diabetes" placeholder="Diabetes (integer)" required />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    {% if prediction is not none %}
+      <h3>Prediction : {{ predcition }}</h3>
+    {% endif %}
+
+  </div>
+</body>
+</html>
